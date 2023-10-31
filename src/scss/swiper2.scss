@@ -1,0 +1,87 @@
+@media (min-width: 320px) {
+    .section-swiper2 {
+        background: #F8F8F8;
+        padding-left: 16px;
+    }
+    .section-swiper2-title {
+        color: #7E7E82;
+        font-family: 'TT Lakes Regular';
+        letter-spacing: -0.2px;
+        text-transform: uppercase;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        background: linear-gradient(270deg, #F8F8F8 0%, #FFF 98.61%);
+        margin-bottom: 24px;
+        border-top: 1px solid #D9FFF5;
+    }
+    .section-swiper2-container-swiper {
+        min-width: 0;
+    }
+    .swiper-wrapper.swiper2 {
+        border-radius: 6px;
+        border: 1px solid #EAEAEA;
+        background-color: #FFF;
+    }
+    .swiper-slide.swiper2 {
+        background: #F8F8F8;
+    }
+    .swiper.swiper2 {
+        height: 200px;
+    }
+    .section-swiper2-container--hidden {
+        display: none;
+    }
+    .section-swiper2-form {
+        display: none;
+    }
+    }
+@media (min-width: 768px) {
+
+    .section-swiper2-form {
+        display: flex;
+        align-items: center;
+        margin-bottom: 34px;
+    }
+    .section-swiper2-form__button {
+        display: flex;
+        align-items: center;
+        border: 0;
+        background-color: #F8F8F8;
+        cursor: pointer;
+    }
+    .section-swiper2-form__label {
+        color: #1B1C21;
+        font-family: 'TT Lakes Medium';
+        letter-spacing: -0.2px;
+        font-size: 16px;
+    }
+    .section-swiper2-container-swiper {
+        display: none;
+    }
+    
+    .section-swiper2-container-ul {
+        display: flex;
+        flex-wrap: wrap;
+        width: 768px;
+        height: 165px;
+        column-gap: 24px;
+        row-gap: 16px;
+        list-style: none;
+        padding: 0;
+        overflow: hidden;
+        margin-bottom: 0;
+    }
+    .hidden-swiper2 {
+        overflow: visible;
+        margin-bottom: 360px;
+    }
+    }
+@media (min-width: 1366px) {
+    .section-swiper2-container-ul {
+        width: 1120px;
+    }
+    .hidden-swiper2 {
+        overflow: visible;
+        margin-bottom: 180px;
+    }
+    }

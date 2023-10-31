@@ -1,0 +1,86 @@
+@media (min-width: 320px) {
+.section {
+	background: #F8F8F8;
+	padding-left: 16px;
+}
+.section-title {
+	color: #7E7E82;
+	font-family: 'TT Lakes Regular';
+	letter-spacing: -0.2px;
+	text-transform: uppercase;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	background: linear-gradient(270deg, #F8F8F8 0%, #FFF 98.61%);
+	margin-bottom: 24px;
+	border-top: 1px solid #D9FFF5;
+}
+.section-container-swiper {
+	min-width: 0;
+}
+.swiper {
+	height: 110px;
+}
+.swiper-wrapper {
+	border-radius: 6px;
+	border: 1px solid #EAEAEA;
+	background-color: #FFF;
+}
+.swiper-slide {
+	background: #F8F8F8;
+}
+
+.section-container--hidden {
+	display: none;
+}
+.section-form {
+	display: none;
+}
+}
+@media (min-width: 768px) {
+.section-form {
+	display: flex;
+	align-items: center;
+	margin-bottom: 34px;
+}
+.section-form__button {
+	display: flex;
+	align-items: center;
+	border: 0;
+	background-color: #F8F8F8;
+	cursor: pointer;
+}
+.section-form__label {
+	color: #1B1C21;
+	font-family: 'TT Lakes Medium';
+	letter-spacing: -0.2px;
+	font-size: 16px;
+}
+.section-container-swiper {
+	display: none;
+}
+.section-container-ul {
+	display: flex;
+	flex-wrap: wrap;
+	width: 768px;
+	height: 165px;
+	column-gap: 24px;
+	row-gap: 16px;
+	list-style: none;
+	padding: 0;
+	overflow: hidden;
+	margin-bottom: 0;
+}
+.hidden {
+	overflow: visible;
+	margin-bottom: 210px;
+}
+}
+@media (min-width: 1366px) {
+.section-container-ul {
+    width: 1120px;
+}
+.hidden {
+	overflow: visible;
+	margin-bottom: 120px;
+}
+}

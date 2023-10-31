@@ -1,0 +1,251 @@
+@media (min-width: 320px) {
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.popup {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: hsla(0, 0%, 100%, 0.9);
+	opacity: 0;
+	visibility: hidden;
+	&:target {
+		opacity: 1;
+		visibility: visible;
+	}
+	&-content {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		padding: 0px 16px;
+		top: 0;
+		right: 0;
+		background-color: #FFF;
+	}
+	&-button-style {
+		border: 0;
+		background-color: #FFF;
+		cursor: pointer;
+		&:hover {
+			opacity: 0.5;
+		}
+	}
+	&__close {
+		margin-bottom: 20px;
+		margin-top: 12px;
+	}
+	&-title {
+		color: #1B1C21;
+		font-family: 'TT Lakes Regular';
+		font-size: 24px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 32px;
+		letter-spacing: -0.6px;
+		margin-bottom: 24px;
+		padding-left: 8px;
+		margin-left: -16px;
+		border-left: 4px solid aqua;
+	}
+	&__form-container {
+		display: flex;
+		flex-direction: column;
+		row-gap: 16px;
+		margin-bottom: 16px;
+		&__item {
+			width: 100%;
+			height: 48px;
+			color: #B5B6BC;
+			font-family: 'TT Lakes Regular';
+			font-size: 16px;
+			font-weight: 500;
+			line-height: 24px;
+			letter-spacing: -0.2px;
+			padding-left: 16px;
+			border: 1px solid #EAEAEA;
+			border-radius: 8px;
+		}
+	}
+	&__form__text-area {
+		width: 100%;
+		height: 118px;
+		color: #B5B6BC;
+		font-family: 'TT Lakes Regular';
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 24px;
+		letter-spacing: -0.2px;
+		border: 1px solid #EAEAEA;
+		border-radius: 8px;
+		padding-left: 16px;
+		padding-top: 12px;
+		margin-bottom: 16px;
+	}
+	&__text {
+		width: 100%;
+		height: 64px;
+		color: #7E7E82;
+		font-family: 'TT Lakes Regular';
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 16px;
+		margin-bottom: 19px;
+		&-span {
+			color: red;
+		}
+	}
+	&-button {
+		margin-left: 150px;
+	}
+}
+
+}
+@media (min-width: 768px) {
+.popup-content {
+	box-shadow: 16px 0px 52px 0px rgba(14, 24, 80, 0.20), -2px 0px 4px 0px rgba(69, 79, 126, 0.02);
+	width: 440px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.popup-position__content {
+	margin-top: -75px;
+}
+.popup__close {
+	position: relative;
+	top: 10px;
+	right: 90px;
+}
+.popup-title {
+	margin-top: 28px;
+	margin-left: -24px;
+	padding-left: 18px;
+}
+.popup-button {
+    margin-left: 250px;
+  }
+
+}
+
+/*popup222222*/
+
+@media (min-width: 320px) {
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.popup-phone {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: hsla(0, 0%, 100%, 0.9);
+	opacity: 0;
+	visibility: hidden;
+	&:target {
+		opacity: 1;
+		visibility: visible;
+	}
+	&-content {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		padding: 0px 16px;
+		top: 0;
+		right: 0;
+		background-color: #FFF;
+	}
+	&-button-style {
+		border: 0;
+		background-color: #FFF;
+		cursor: pointer;
+		&:hover {
+			opacity: 0.5;
+		}
+	}
+	&__close {
+		margin-bottom: 20px;
+		margin-top: 12px;
+	}
+	&-title {
+		color: #1B1C21;
+		font-family: 'TT Lakes Regular';
+		font-size: 24px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 32px;
+		letter-spacing: -0.6px;
+		margin-bottom: 24px;
+		padding-left: 8px;
+		margin-left: -16px;
+		border-left: 4px solid aqua;
+	}
+	&__form-container {
+		display: flex;
+		flex-direction: column;
+		row-gap: 16px;
+		margin-bottom: 16px;
+		&__item {
+			width: 100%;
+			height: 48px;
+			color: #B5B6BC;
+			font-family: TT Lakes;
+			font-size: 16px;
+			font-weight: 500;
+			line-height: 24px;
+			letter-spacing: -0.2px;
+			padding-left: 16px;
+			border: 1px solid #EAEAEA;
+			border-radius: 8px;
+		}
+	}
+	&__text {
+		width: 100%;
+		height: 64px;
+		color: #7E7E82;
+		font-family: 'TT Lakes Regular';
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 16px;
+		margin-bottom: 19px;
+		&-span {
+			color: red;
+		}
+	}
+	&-button {
+		margin-left: 150px;
+	}
+}
+}
+@media (min-width: 768px) {
+.popup-phone-content {
+    box-shadow: 16px 0px 52px 0px rgba(14, 24, 80, 0.20), -2px 0px 4px 0px rgba(69, 79, 126, 0.02);
+	width: 440px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.popup-phone-position__content {
+	margin-top: -75px;
+}
+.popup-phone__close {
+	position: relative;
+	top: 10px;
+	right: 90px;
+}
+.popup-phone-title {
+	margin-top: 28px;
+	margin-left: -24px;
+	padding-left: 18px;
+}
+.popup-phone-button {
+	margin-left: 250px;
+}
+}
